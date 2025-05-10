@@ -28,14 +28,14 @@ export default function RootLayout({
         <meta name="theme-color" content="#FB923C" />
         
         {/* Google Analytics - sử dụng dangerouslySetInnerHTML để chèn script trực tiếp */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-MQ3E5L9YT8"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-WXCZ7VS380"></script>
         <script
           dangerouslySetInnerHTML={{
             __html: `
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
-              gtag('config', 'G-MQ3E5L9YT8');
+              gtag('config', 'G-WXCZ7VS380');
             `
           }}
         />
