@@ -254,6 +254,7 @@ export default function RegistrationForm() {
             className="w-full md:w-72"
             isDisabled={username.length < 2}
             options={[
+              { value: 'GK39', label: 'GK39 : ĐĂNG KÍ TÀI KHOẢN NHẬN NGAY 39K' },
               { value: 'GK01', label: 'GK01 : Casino thể thao nạp đầu thưởng 28888k' },
               { value: 'GK02', label: 'GK02 : Casino thể thao nạp lần 2 thưởng 15888k' },
               { value: 'GK09', label: 'GK09 : BẮN CÁ - NỔ HŨ NẠP ĐẦU TẶNG 100%' },
