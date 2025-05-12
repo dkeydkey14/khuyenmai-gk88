@@ -13,7 +13,7 @@ export default function TopSection() {
         
         {/* Login/Register Buttons */}
         <div className="container mx-auto px-4 py-4 flex justify-center space-x-8">
-          <a href="https://gk88.ai/" className="block">
+          <a href="https://gk88.date/" className="block">
             <img 
               src="/images/TRANG CHU.png" 
               alt="Trang chủ" 
