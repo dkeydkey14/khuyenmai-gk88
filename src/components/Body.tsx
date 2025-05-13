@@ -53,31 +53,31 @@ export default function Body() {
         </tr>
         <tr>
           <td style="border: 1px solid black; padding: 8px;">1,000</td>
-          <td style="border: 1px solid black; padding: 8px;">88</td>
-        </tr>
-        <tr>
-          <td style="border: 1px solid black; padding: 8px;">5,000</td>
           <td style="border: 1px solid black; padding: 8px;">188</td>
         </tr>
         <tr>
-          <td style="border: 1px solid black; padding: 8px;">10,000</td>
+          <td style="border: 1px solid black; padding: 8px;">5,000</td>
           <td style="border: 1px solid black; padding: 8px;">688</td>
         </tr>
         <tr>
-          <td style="border: 1px solid black; padding: 8px;">50,000</td>
+          <td style="border: 1px solid black; padding: 8px;">10,000</td>
           <td style="border: 1px solid black; padding: 8px;">988</td>
         </tr>
         <tr>
+          <td style="border: 1px solid black; padding: 8px;">50,000</td>
+          <td style="border: 1px solid black; padding: 8px;">3.888</td>
+        </tr>
+        <tr>
           <td style="border: 1px solid black; padding: 8px;">100,000</td>
-          <td style="border: 1px solid black; padding: 8px;">3,888</td>
+          <td style="border: 1px solid black; padding: 8px;">6.888</td>
         </tr>
         <tr>
           <td style="border: 1px solid black; padding: 8px;">300,000</td>
-          <td style="border: 1px solid black; padding: 8px;">6,888</td>
+          <td style="border: 1px solid black; padding: 8px;">18.888</td>
         </tr>
         <tr>
           <td style="border: 1px solid black; padding: 8px;">500,000</td>
-          <td style="border: 1px solid black; padding: 8px;">18,888</td>
+          <td style="border: 1px solid black; padding: 8px;">28.888</td>
         </tr>
       </tbody>
     </table>
