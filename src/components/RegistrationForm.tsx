@@ -150,7 +150,7 @@ export default function RegistrationForm() {
       };
       
       // Gửi request đến API
-      const response = await fetch('https://apigk88check.newpei.dev/api/auto-review', {
+      const response = await fetch('https://api02gk88check.newpei.dev/api/auto-review', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
