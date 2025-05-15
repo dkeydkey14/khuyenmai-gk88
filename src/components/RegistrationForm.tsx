@@ -158,6 +158,20 @@ export default function RegistrationForm() {
         body: JSON.stringify(requestData)
       });
       
+      // Kiểm tra mã trạng thái HTTP
+      if (response.status === 400) {
+        // Xử lý lỗi 400 Bad Request
+        try {
+          const errorResult = await response.json();
+          setFormError(errorResult.error || errorResult.message || `Tài khoản đã có yêu cầu khuyến mãi ${selectedPromotion.value} đang chờ duyệt hoặc đã duyệt`);
+        } catch (parseError) {
+          setFormError(`Tài khoản đã có yêu cầu khuyến mãi ${selectedPromotion.value} đang chờ duyệt hoặc đã duyệt`);
+        }
+        setFormSubmitted(false);
+        setIsLoading(false);
+        return;
+      }
+      
       // Xử lý kết quả
       const result: ApiResponse = await response.json();
       
@@ -255,8 +269,8 @@ export default function RegistrationForm() {
             isDisabled={username.length < 2}
             options={[
               { value: 'GK39', label: 'GK39 : ĐĂNG KÍ TÀI KHOẢN NHẬN NGAY 39K' },
-              { value: 'GK01', label: 'GK01 : Casino thể thao nạp đầu thưởng 28888k' },
-              { value: 'GK02', label: 'GK02 : Casino thể thao nạp lần 2 thưởng 15888k' },
+              { value: 'GK01', label: 'GK01 : HỘI VIÊN MỚI NẠP ĐẦU THƯỞNG 28.888.000VND' },
+              { value: 'GK02', label: 'GK02 : HỘI VIÊN NẠP LẦN 2 THƯỞNG 15.888.000VND' },
               { value: 'GK09', label: 'GK09 : BẮN CÁ - NỔ HŨ NẠP ĐẦU TẶNG 100%' },
               { value: 'GK06', label: 'GK06: Ngày vàng 10, 20, 30 khuyến mãi 6%' },
               { value: 'GH05', label: 'GH05 : SĂN VÉ CƯỢC MAY MẮN' },
