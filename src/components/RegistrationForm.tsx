@@ -274,7 +274,6 @@ export default function RegistrationForm() {
               { value: 'GK09', label: 'GK09 : BẮN CÁ - NỔ HŨ NẠP ĐẦU TẶNG 100%' },
               { value: 'GK06', label: 'GK06: Ngày vàng 10, 20, 30 khuyến mãi 6%' },
               { value: 'GH05', label: 'GH05 : SĂN VÉ CƯỢC MAY MẮN' },
-              { value: 'LE02', label: 'LE02 : NỔ HŨ - BẮN CÁ MỖI NGÀY NẠP 50K NHẬN 50K' },
               { value: 'LE04', label: 'LE04 : ĐÓN HỘI VIÊN CŨ QUAY LẠI THƯỞNG MIỄN PHÍ 8.888K' },
               { value: 'LE07', label: 'LE07 : NẠP TIỀN CHỦ NHẬT HÀNG TUẦN THƯỞNG 7%' },
               
